@@ -29,19 +29,15 @@ def find_mismatch(text):
 
 
 def main():
+    choice = input()
     text = input()
-    
-    if 'F' in text:
-        text = input()
-    if 'I' in text:  
-        pass      
-        
     mismatch = find_mismatch(text)
-    if not mismatch:
-        print("Success")
+    # Printing answer, write your code here
+    if choice == "I":
+        print(mismatch)
     else:
         print(mismatch)
-    # Printing answer, write your code here
+   
     
 
 
